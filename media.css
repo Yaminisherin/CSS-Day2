@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: red;
+}
+h1{
+    
+    
+}
+p{
+    margin:35px;
+    padding: 30px;
+}
+@media(max-width:768px){
+    body{
+        text-align:center;
+        color:aqua;
+    }
+    
+}
+@media(min-width:1025px){
+    body{
+        background-color: aliceblue;
+        color:black;
+    }
+}
+@media(orientation:portrait){
+    body{
+        background-color:blueviolet;
+        color:black;
+    }
+}
